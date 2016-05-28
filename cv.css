@@ -4,12 +4,11 @@ div
     }
 #header
 {
-
-    z-index: 1;
-    height:40px;
-    width: 98%;
-    background-color: #668284;
-
+border-top: 5px solid green;
+   background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
     }
 
 #name {
@@ -38,50 +37,25 @@ div
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
     }
-
-
-{
-    height:40px;
-    clear:both;
-    position: relative;
-    background-color: #C1E3E1;
-    }
-	a:hover {
-    font-weight: bold;
+body{
+    background-color: pink;
+}
+h3{
+  color: green;
+  
 }
 
-.right
-{
-    float: left;
-    margin-top: 5px;
-    padding-left:5px;
-    /*margin-right: -10px;
-    margin-left: 14%;*/
-    height: auto;
-    width: 99%;
-    background-color: #E3EDD8;
-    }
 
+#academics{
+    border-top: 5px solid green;
 
-
-    
-h3
-{
-    
-	border-bottom:2px solid green;
-    }
+}
 td
 {
     padding: 2px;
-    border: 1px solid #E88741;
+    border: 1px solid green;
     }
-
-#Qualifcation
-{
-    font-weight:bold;
-    }
-
-#School
+    #School
 {
     height:2px;
     text-decoration:underline;
@@ -95,3 +69,38 @@ td
 {
     font-weight:bold;
     }
+
+#work{
+     
+     -moz-column-rule: 2px solid green;
+    border-top: 5px solid green;
+ -moz-column-count: 2;
+  -webkit-column-count: 2;
+   column-count: 2;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+    
+
+
+
+#Qualifcation
+{
+    font-weight:bold;
+    }
+   
+#referees{
+    border-top: 5px solid green;
+ -moz-column-count: 2;
+    -moz-column-count: 2;
+  -webkit-column-count: 2;
+   column-count: 2;
+
+}
+ #footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
